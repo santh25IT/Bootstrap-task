@@ -9,3 +9,18 @@
  
 
 }
+div .map{
+  width: 200px;
+  height: 300px;
+}
+.contact{
+  height: 40vh;
+  width: 100%;
+  margin-top: 100px;
+  padding-left: 100px;  
+  background: rgb(231, 191, 79);
+}
+ h1 i{
+  margin-left: 200px;
+}
+ 
