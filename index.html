@@ -38,10 +38,9 @@
                 COMPANY
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item " href="#">Iphone</a></li>
-                <li><a class="dropdown-item" href="#">Samsung</a></li>
-                <li><a class="dropdown-item" href="#">Oppo</a></li>
-                <li><a class="dropdown-item" href="#">Vivo</a></li>
+                <li><a class="dropdown-item " href="com">Iphone</a></li>
+                <li><a class="dropdown-item" href="com">One plus</a></li>
+                <li><a class="dropdown-item" href="com">Samsung</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -132,7 +131,7 @@
   </div>
   <br><br>
   <!-- company -->
-  <h1 class="mb-5 text-center text-warning" id="" >COMPANY</h1>
+  <h1 class="mb-5 text-center text-warning" id="com" >COMPANY</h1>
   <div class="container my-5 ">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
@@ -168,29 +167,25 @@
     </div>
   </div>
     <!-- Login -->
-    
+   
   <div class="container" id="login">
-    <div class="login">
- <form action="/action_page.php" style="width: 500px; margin-left: 30%;" >
-  <div class="mb-3 mt-3">
-    <h1 class="mb-5 text-center text-warning" >Login</h1>
-    <label for="email" class="form-label">Email:</label>
-    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-  </div>
-  <div class="mb-3">
-    <label for="pwd" class="form-label">Password:</label>
-    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-  </div>
-   <label for="comment">Comments:</label>
-<textarea class="form-control" rows="5" id="comment" name="text"></textarea> 
-  <div class="form-check mb-3">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox" name="remember"> Remember me
-    </label>
-  </div>
-  <button type="submit" class="btn btn-warning">Submit</button>
-</form> 
-</div>
+    <h1 class="mb-5 text-center text-warning"  >LOGIN</h1>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">User Name</label>
+        <input type="email" placeholder="Enter your Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+      
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password" required>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-warning">Submit</button>
+    </form>
 </div>
 <!-- contact -->
 
